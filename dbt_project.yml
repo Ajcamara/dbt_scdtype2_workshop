@@ -39,9 +39,6 @@ models:
 
   jean_dbt_workshop:
 
-      example:
-
-          +schema: example 
 
       silver:
 
