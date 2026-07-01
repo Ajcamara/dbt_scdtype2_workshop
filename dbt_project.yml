@@ -41,16 +41,16 @@ models:
 
       example:
 
-          schema: example 
+          +schema: example 
 
-     silver:
+      silver:
 
-          schema: silver
+          +schema: silver
 
-          materialized: table
+          +materialized: table
 
       gold:
 
-          schema: gold
+          +schema: gold
 
-          materialized: view
+          +materialized: view
