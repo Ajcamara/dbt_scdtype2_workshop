@@ -23,3 +23,4 @@
 select * from {{ source('xfm', 'WORK_PRODUCT_TRANSFORM') }}
 
 {% endsnapshot %}
+
